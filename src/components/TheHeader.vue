@@ -1,6 +1,7 @@
 <template>
   <header class="header">
     <h1 class="logo">My portfolio</h1>
+    <v-btn prepend-icon="$vuetify" append-icon="$vuetify"> Button </v-btn>
   </header>
 </template>
 
@@ -25,5 +26,4 @@
     text-transform: uppercase;
   }
 }
-
 </style>
