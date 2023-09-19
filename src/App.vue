@@ -6,16 +6,14 @@ import { PROJECTS } from './data/data';
 
 <template>
   <TheHeader />
-  <main class="main">
+  <v-contain class="main">
     <BaseCard v-for="project in PROJECTS" :key="project.id" :projects="project" />
-  </main>
+  </v-contain>
 </template>
-
 <style scoped lang="scss">
 .main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
   max-width: 1600px;
   margin: 50px auto;

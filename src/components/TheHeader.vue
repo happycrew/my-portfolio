@@ -6,7 +6,7 @@
 </template>
 
 <style scoped lang="scss">
-@import '../assets/variables.scss';
+@import '../assets/styles/variables.scss';
 .header {
   position: sticky;
   top: 0;
