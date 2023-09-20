@@ -6,9 +6,9 @@ import { PROJECTS } from './data/data';
 
 <template>
   <TheHeader />
-  <v-contain class="main">
+  <main class="main">
     <BaseCard v-for="project in PROJECTS" :key="project.id" :projects="project" />
-  </v-contain>
+  </main>
 </template>
 <style scoped lang="scss">
 .main {

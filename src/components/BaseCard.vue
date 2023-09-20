@@ -7,8 +7,8 @@ const show = ref(false);
 </script>
 
 <template>
-  <v-card class="mx-auto v-theme--dark mt-10" width="480">
-    <v-img :src="projects.img" alt="project_img" width="100%" height='100%' cover></v-img>
+  <v-card class="mx-auto v-theme--dark mt-10" width="420">
+    <v-img :src="projects.img" alt="project_img" width="100%" height="100%" cover></v-img>
 
     <v-card-title> {{ projects.title }} </v-card-title>
 

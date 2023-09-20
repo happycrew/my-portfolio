@@ -1,7 +1,18 @@
+<script>
+import 'boxicons';
+</script>
+
 <template>
   <header class="header">
     <h1 class="logo">My portfolio</h1>
-    <v-btn prepend-icon="$vuetify" append-icon="$vuetify"> Button </v-btn>
+    <div class="header__icons">
+      <a href="https://t.me/stncrwtg" target="_blank" class="header__icons-link">
+        <box-icon name="telegram" type="logo" size="md" color="white"></box-icon>
+      </a>
+      <a href="/img/hh.resume.pdf" target="_blank">
+        <v-btn> Resume </v-btn>
+      </a>
+    </div>
   </header>
 </template>
 
@@ -18,6 +29,19 @@
   background: $header-background;
   padding: 1.35rem;
   box-shadow: $box-shadow;
+
+  &__icons {
+    margin-right: 5%;
+    display: flex;
+    gap: 20px;
+
+    &-link {
+      transition: 0.2s ease-in-out;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
 
   .logo {
     font-size: 2.25em;

@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@mdi/font": "^7.2.96",
-    "vite-plugin-require": "^1.1.10",
+    "boxicons": "^2.1.4",
     "vue": "^3.3.4",
     "vuetify": "^3.3.16"
   },
@@ -24,7 +24,6 @@
     "prettier": "^3.0.3",
     "sass": "^1.67.0",
     "sass-loader": "^13.3.2",
-    "vite": "^4.4.9",
-    "vite-plugin-require-transform": "^1.0.21"
+    "vite": "^4.4.9"
   }
 }

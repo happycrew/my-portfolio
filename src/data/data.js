@@ -1,7 +1,7 @@
 export const PROJECTS = [
   {
     id: 0,
-    img: 'img/graphql.jpg',
+    img: 'img/grapgh.png',
     title: 'IDE for graphQL requests',
     techStack: [
       'React',
@@ -44,6 +44,15 @@ export const PROJECTS = [
     githubLink: 'https://github.com/Veronchi/Rs-Clone/tree/develop'
   },
   {
+    id: 6,
+    img: 'img/evogym.png',
+    title: 'Evo Gym',
+    techStack: ['React', 'Tailwind', 'TypeScript', 'Framer motion', 'Vite'],
+    description: `Сайт для фитнес клуба, для стилизации использова Tailwind, а так же библиотека Framer motion для создании анимаций появляющейся информации`,
+    deploy: 'https://gym-app-orlov.netlify.app/',
+    githubLink: 'https://github.com/happycrew/gym-app'
+  },
+  {
     id: 5,
     img: 'img/admindashboard.png',
     title: 'React Admin Dashboard',
@@ -59,15 +68,6 @@ export const PROJECTS = [
     description: `Админская панель с кучей графиков, таблиц и схем, опыт использования различных библиотек для отрисовки подобного контента.`,
     deploy: 'https://admin-dashboard-orlov.netlify.app/',
     githubLink: 'https://github.com/happycrew/admin-dashboard-react/tree/develop'
-  },
-  {
-    id: 6,
-    img: 'img/evogym.png',
-    title: 'Evo Gym',
-    techStack: ['React', 'Tailwind', 'TypeScript', 'Framer motion', 'Vite'],
-    description: `Сайт для фитнес клуба, для стилизации использова Tailwind, а так же библиотека Framer motion для создании анимаций появляющейся информации`,
-    deploy: 'https://gym-app-orlov.netlify.app/',
-    githubLink: 'https://github.com/happycrew/gym-app'
   },
   {
     id: 2,
